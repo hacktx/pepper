@@ -73,7 +73,7 @@ A list of external dependencies:
 - SendGrid: Rather than deal with the nightmare that is email delivery, we outsource our email delivery to SendGrid a transactional email provider who offers 12,000 email for free per month (15K with the GitHub student pack)
 - MyMLH: Many student hackers apply to multiple hackathons, yet are stuck filling out the same boring name, school, shirt size, etc.
 We use MyMLH to make this easy, requiring the applicant to only need to create an account once for all hackathons that use MyMLH.
-- Slack: We have an attendee Slack that hooks up to our mobile apps push notification system. When an `@channel` announcement is sent on the `#accouncements` channel, it sends a notification to Pepper, which then pushes out a push notification using...
+- Slack: We have an attendee Slack that hooks up to our mobile apps push notification system. When an `@channel` announcement is sent on the `#announcements` channel, it sends a notification to Pepper, which then pushes out a push notification using...
 - Firebase: The Firebase SDK is used on HackTX mobile apps to receive push notifications.
 - Mailgun: While this was originally included to do email verification, we decided it wasn't worth it based on the MyMLH process and this is to be removed
 - AWS S3: We get a lot of resumes, and running Pepper on a virtual container system means it doesn't make sense to store resumes on the file system.
